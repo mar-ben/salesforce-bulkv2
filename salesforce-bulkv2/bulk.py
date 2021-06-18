@@ -1,6 +1,5 @@
 import requests
 import sys
-import pandas as pd
 import time
 
 class Bulk:
@@ -25,6 +24,8 @@ class Bulk:
                                                                                                 client_secret,
                                                                                                 username,
                                                                                                 password)
+        response=requests.post(auth_url)
+        print(response.json())
         if 'access_token' not in response.json():
             print('auth failed')
         else:
@@ -138,7 +139,7 @@ class Bulk:
         
     
     def wait_for_job_complete(self,job,operation='insert'):
-        
+        print('wait for job complete')
         job_state=''
         status_response=''
         
