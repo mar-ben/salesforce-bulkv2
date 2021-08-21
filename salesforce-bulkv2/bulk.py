@@ -35,10 +35,10 @@ class Bulk:
             print('authorized')
     
     def get_auth2_token(self):
-        return self.access_token;
+        return self.access_token
     
     def get_auth_url(self):
-        print(auth_url)
+        print(self.auth_url)
     
     def get_request_headers(self):
         return {
