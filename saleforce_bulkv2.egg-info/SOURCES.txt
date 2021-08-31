@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+Readme.txt
+setup.py
+saleforce_bulkv2.egg-info/PKG-INFO
+saleforce_bulkv2.egg-info/SOURCES.txt
+saleforce_bulkv2.egg-info/dependency_links.txt
+saleforce_bulkv2.egg-info/top_level.txt
+salesforce-bulkv2/Bulk.py
+salesforce-bulkv2/BulkTest.py
+salesforce-bulkv2/__init__.py
