@@ -1,0 +1,16 @@
+*.pyc
+build/
+dist/
+*.egg-info
+*.egg
+*.eggs
+.idea
+.coverage
+.tox/
+tags
+.env/
+.tags
+docs/_build/
+.vscode
+venv
+set_env_variables.py

@@ -98,7 +98,8 @@ class Bulk:
         result_data = result_data+response.content.decode()
         while sf_locator != 'null':
             uri = request_uri + '&locator={}'.format(sf_locator)
-            response = requests.get(url=uri, headers=header)
+            response = requests.get(
+                url=uri, headers=self.get_request_headers())
             result_data = result_data+response.content.decode()
             if('Sforce-Locator' in response.headers):
                 sf_locator = response.headers['Sforce-Locator']
