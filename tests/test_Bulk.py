@@ -8,6 +8,7 @@ class BulkTest(unittest.TestCase):
     # test case method should startpip with test
 
     def connect_test_org(self):
+        # set the below enviroment variables before running test.
         username = os.environ["USERNAME"]
         password = os.environ["PASSWORD"]
         client_id = os.environ["CLIENT_ID"]
